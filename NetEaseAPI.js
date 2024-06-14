@@ -1,8 +1,9 @@
 let UID;
 let SID;
+let game;
 
 let xhr = new XMLHttpRequest();
-let url = `https://pay.neteasegames.com/gameclub/aceracer/${SID}/login-role?roleid=${UID}&client_type=gameclub`;
+let url = `https://pay.neteasegames.com/gameclub/aceracer/10001/login-role?roleid=4976908&client_type=gameclub`;
 
 xhr.open("POST", url, true);
 xhr.onreadystatechange = function() {
